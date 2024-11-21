@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "expo-sdk52-notif-bug",
+    "slug": "expo-sdk52-notif-bug",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "newArchEnabled": true,
+      "bundleIdentifier": "com.mjs.expo-notif-bug",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "fetch"
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "messagingSenderId": "462459637423",
+      "appId": "1:462459637423:web:dc808813e450cfc2a70e5a",
+      "measurementId": "G-63D6M2P5VK",
+      "eas": {
+        "projectId": "656c32f7-a7ab-465c-afdb-41eda5203b29"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/79af4202-62de-442e-8c40-ef25431f0b96"
+    },
+    "owner": "mjsween11"
+  }
+}
